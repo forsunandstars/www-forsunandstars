@@ -1,0 +1,148 @@
+.main-container {
+    flex-direction: column;
+    align-items: center;
+}
+
+.main-container,
+.content,
+.header,
+.footer {
+    display: -webkit-box;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+}
+
+/* HEADER CSS */
+.header {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%
+}
+
+.navBarLinks {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 100%; 
+    background-color: rgb(0, 32, 124);
+    padding: 10;
+
+}
+
+.navLink {
+    color: rgb(255,167, 0);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 16;
+    text-decoration: none;
+}
+
+.navLink:visited{ 
+    opacity: 0.5;
+}
+.navLink:hover { 
+    transform: scale(1.2);
+}
+.navLink:active { 
+    text-decoration: underline;
+}
+.fullLogo {
+    width: 100%; 
+}
+
+/* MAIN CONTENT CSS */
+.content {
+    display: flex;
+    flex-direction: column; 
+    align-items: center;  
+    padding: 15px;
+    gap: 15px; 
+    width: 100%;
+}
+
+.ourStory {
+    display: flex; 
+    flex-direction: column;  
+    align-content: center; 
+} 
+
+/* FOOTER CSS */
+.footer {
+    flex-direction: column;
+    align-items: center;
+    width: 100%; 
+}
+
+.social {
+    display: flex;
+    flex-direction: row;
+    flex-wrap:nowrap;
+    justify-content: space-evenly; 
+    align-items: center;
+    gap: 10px;
+}
+
+.ytBw,.instaBw,.fbBw {
+    width:100%;  
+}
+.youtube, .insta, .facebook {
+    width: 50px;
+    
+}
+
+.youtube {
+    position: relative; 
+    width: 50px;
+}
+.youtube img.ytColor {
+    position: absolute;
+    top: 0;
+    right: 0;
+    left: 0;
+    bottom: 0;
+    width: 50px;
+    opacity: 0;
+    transition: opacity .2s;
+}
+.youtube:hover img.ytColor {
+    opacity: 1;
+}
+
+.insta {
+    position: relative; 
+    width: 50px;
+}
+.insta img.instaColor {
+    position: absolute;
+    top: 0;
+    right: 0;
+    left: 0;
+    bottom: 0;
+    width: 50px;
+    opacity: 0;
+    transition: opacity .2s;
+}
+.insta:hover img.instaColor {
+    opacity: 1; 
+}
+
+.facebook {
+    position: relative; 
+    width: 50px;
+}
+.facebook img.fbColor {
+    position: absolute;
+    top: 0;
+    right: 0;
+    left: 0;
+    bottom: 0;
+    width: 50px;
+    opacity: 0;
+    transition: opacity .2s;
+}
+.facebook:hover img.fbColor {
+    opacity: 1;
+}

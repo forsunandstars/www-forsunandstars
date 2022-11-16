@@ -1,0 +1,33 @@
+.storyContainer {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap; 
+    width: 100%;
+}
+
+.storyPic, .whoWeAre, .journey, .love {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    padding: 15;
+    align-items: center;
+    width: 100%;
+}
+
+.storyPicture {
+    display: flex;
+    width: 50%;
+} 
+.paraTitle {
+    font-weight: bold;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: rgb(0, 32, 124);
+    font-size: 18;
+}
+
+.paraStory {
+    font-weight: bold;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: rgb(94, 82, 62);
+    line-height: 2;
+}

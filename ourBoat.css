@@ -1,0 +1,29 @@
+.boatContainer {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    align-items: center;
+}
+
+.overview, .turtlestouches {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    align-items: center;
+}
+
+.overviewPic, .overviewDescription, .ttPic, .ttDescription {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    align-items: center;
+}
+
+.overviewPicture, .ttPicture {
+    width: 50%;
+    align-items: center;
+}
+
+.subTitle {
+    color: rgb(219, 144, 4);
+}
