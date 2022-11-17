@@ -1,0 +1,32 @@
+.supportcontainer {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap; 
+    width: 100%;
+    padding-top: 50;
+    align-content: center;
+}
+
+
+
+.logos {
+    flex-direction: row;
+    flex-wrap:wrap;
+    justify-content: space-evenly; 
+    align-items: center; 
+    display: flex; 
+    padding-top: 50;
+}
+
+.kofiLogo, .patreonLogo {
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.kofiVpatreon {
+    padding-top: 50;
+    width: 100%;
+    justify-content: center;
+    display: flex;
+}

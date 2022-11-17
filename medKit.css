@@ -1,11 +1,12 @@
-.storyContainer {
+
+.mkContainer {
     display: flex;
     flex-direction: column;
     flex-wrap: wrap; 
     width: 100%;
 }
 
-.storyPic, .whoWeAre, .journey, .love {
+.mkVideo, .whyYourOwn, .organize, .fitTheSail, .expLevel, .DocJourney, .CMIEventRecord, .antibioticBeWare, .ourOwn {
     display: flex;
     flex-direction: column;
     flex-wrap: wrap;
@@ -14,9 +15,9 @@
     width: 100%;
 }
 
-.storyPicture {
+.mkVideo {
     display: flex;
-    width: 50%;
+    width: 100%;
 } 
 .paraTitle {
     font-weight: bold;
@@ -31,3 +32,4 @@
     color: rgb(94, 82, 62);
     line-height: 2;
 }
+
